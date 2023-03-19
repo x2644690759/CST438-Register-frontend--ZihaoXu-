@@ -37,7 +37,7 @@ class UserPage extends Component {
       })
       .then(res => {
         if (res.ok) {
-          toast.success("Course successfully added", {
+          toast.success("Student successfully added", {
             position: toast.POSITION.BOTTOM_LEFT
           });
           
@@ -72,7 +72,7 @@ class UserPage extends Component {
         <TextField fullWidth label="name" name="name" onChange={this.handleChange} />
         <TextField fullWidth label="email" name="email" onChange={this.emailHandleChange} style={{ marginTop: 50 }} />
 
-        <Button onClick={this.handleAdd}>提交</Button>
+        <Button onClick={this.handleAdd}>submit</Button>
       </div>
     )
   }

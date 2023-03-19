@@ -142,7 +142,7 @@ class Semester extends Component {
                   pathname: '/user',
                 }} 
                 variant="outlined" color="primary" style={{ margin: 10 }}>
-                Add
+                Add Student
               </Button>
           {/* <Dialog
             open={this.state.open} onClose={this.handleClose}>

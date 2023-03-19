@@ -1,4 +1,4 @@
-export const SERVER_URL = 'https://localhost:8080/';
+export const SERVER_URL = 'http://localhost:8080/';
 
 export const SEMESTER_LIST = [
   {id:0, year:2020, name:'Fall'},
